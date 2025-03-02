@@ -1,0 +1,73 @@
+body {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+h1 {
+  font-size: 8rem;
+  color: #aaecff;
+  font-family: "League Script", cursive;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+  text-shadow: -2px -2px 0 #42ccff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff,
+    2px 2px 0 #ffffff;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.balloon {
+  position: absolute;
+  bottom: -100px;
+  animation: float 8s ease-in-out infinite;
+  background: none;
+  border: none;
+}
+.balloon:nth-child(2),
+.balloon:nth-child(4) {
+  width: 500px;
+  animation-duration: 7s;
+  animation-delay: 1s;
+}
+.balloon:nth-child(3),
+.balloon:nth-child(5) {
+  width: 800px;
+  animation-duration: 6.5s;
+  animation-delay: 0.5s;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-300px) translateX(10px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-600px) translateX(-10px);
+    opacity: 0;
+  }
+}
+.balloon:nth-child(2) {
+  left: 5%;
+}
+.balloon:nth-child(3) {
+  left: 10%;
+}
+.balloon:nth-child(4) {
+  left: 50%;
+}
+.balloon:nth-child(5) {
+  left: 70%;
+}
