@@ -4,17 +4,17 @@ A fun and simple **birthday animation** featuring floating balloons and a stylis
 
 ## Features
 
-- **Animated balloons** that float upwards
-- **Smooth fade-in effect** for the birthday message
-- **Beautifully styled text** using Google Fonts
-- **Customizable** – tweak colors, fonts, and animations
+- **Animated balloons** that float upwards.
+- **Smooth fade-in effect** for the birthday message.
+- **Beautifully styled text** using Google Fonts.
+- **Customisable** – tweak colors, fonts, and animations.
 
 ## Files
 
-- `index.html` – The main HTML file
-- `style.css` – Styles and animations
+- `index.html` – Main HTML File
+- `style.css` – Styles and Animations
 - `b.ico` – Favicon
-- `b1.png`, `b2.png`, `b3.png`, `b4.png` – Balloon images
+- `b1.png`, `b2.png`, `b3.png`, `b4.png` – Balloon Images
 
 ## How to Use
 
