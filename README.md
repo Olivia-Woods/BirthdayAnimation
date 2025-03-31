@@ -22,3 +22,8 @@ A fun and simple **birthday animation** featuring floating balloons and a stylis
    ```sh
    git clone https://github.com/your-username/BirthdayAnimation.git
    ```
+   
+## Contact
+
+👩🏽‍💻 **Developer:** Olivia Woods 2025 
+GitHub: [github.com/Olivia-Woods]
