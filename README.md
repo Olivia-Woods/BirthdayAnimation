@@ -25,5 +25,5 @@ A fun and simple **birthday animation** featuring floating balloons and a stylis
    
 ## Contact
 
-👩🏽‍💻 **Developer:** Olivia Woods 2025 
+👩🏽‍💻 **Developer:** Olivia Woods 2025<br>
 GitHub: [github.com/Olivia-Woods]
